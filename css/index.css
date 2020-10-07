@@ -81,10 +81,30 @@
     width: 95%;
     height: 74vh;
     margin-top: 3%;
+    margin-left: 0.5%;
     background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 5px;
+}
+
+.chatContainer {
+    width: 30%;
+    height: 68vh;
+    margin: 3% 1% 0 0.5%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    position: relative;
+}
+
+.boardContainer {
+    width: 30%;
+    height: 68vh;
+    margin: 3% 1% 0 0.5%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    position: relative;
 }
 
 .slideContainer .material-icons{
